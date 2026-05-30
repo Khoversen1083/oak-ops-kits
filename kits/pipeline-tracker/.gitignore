@@ -1,0 +1,14 @@
+# Per-user intake, config, and outputs. Skeleton stays, contents do not.
+intake-filled.md
+KIT-CONFIG.md
+outputs/*
+!outputs/.gitkeep
+!outputs/pipeline.csv.template
+
+# Secrets and noise
+.env
+.env.*
+.DS_Store
+*.log
+*.swp
+*.bak

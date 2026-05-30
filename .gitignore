@@ -1,0 +1,13 @@
+.DS_Store
+.env
+.env.*
+*.log
+*.swp
+*.bak
+
+# Kit outputs are user-generated. Skeleton stays, contents do not.
+kits/*/outputs/*
+!kits/*/outputs/.gitkeep
+
+# KIT-CONFIG.md is a user's snapshot from Step 0 Setup Interview. Per-user.
+kits/*/KIT-CONFIG.md

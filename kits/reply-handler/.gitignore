@@ -1,0 +1,12 @@
+# Per-user intake and outputs. Skeleton stays, contents do not.
+intake-filled.md
+outputs/*
+!outputs/.gitkeep
+
+# Secrets and noise
+.env
+.env.*
+.DS_Store
+*.log
+*.swp
+*.bak

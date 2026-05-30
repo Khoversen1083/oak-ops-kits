@@ -1,0 +1,25 @@
+{
+  "keyword": "ENGINE",
+  "hook": "I built a *content engine* that prints reel ideas every morning",
+  "hook_sub": "two skills, one notion db, eight minutes a day.",
+  "stakes": "Most builders are still *typing prompts* one at a time.",
+  "system_name": "The *Two-Skill* Engine",
+  "system_oneliner": "One scrapes the internet for what's working. The other turns each signal into a reel package.",
+  "system_blocks": ["SCRAPE", "SCORE", "WRITE"],
+  "steps": [
+    {
+      "title": "*Scrape* every morning",
+      "body": "**v2-signal** pulls every viral AI reel from 12 handles overnight and dumps them into Notion."
+    },
+    {
+      "title": "*Score* the winners",
+      "body": "Each reel gets a **threat-match** + **tool-demo** score. The top 3 surface in a daily digest."
+    },
+    {
+      "title": "*Write* the package",
+      "body": "**v2-write** drafts caption + capcut-lines + SCRIPT.md in my voice. I review and film."
+    }
+  ],
+  "payoff": "10 minutes of curation *replaces* 4 hours of ideation.",
+  "cta_body": "I'll send the full Notion schema, both skill prompts, and the scoring rubric. Free."
+}
