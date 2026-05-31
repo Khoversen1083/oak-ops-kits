@@ -11,10 +11,13 @@ client-specific noise.
 
 Three things:
 
-1. **`kits/`** — 10 self-contained Claude Code kits (niche, cold email, reply
-   handler, pipeline tracker, discovery, pricing, delivery, monthly
-   maintenance, first automation, content engine offer sheet). Each kit
-   interviews you, integrates into your CLAUDE.md, then runs.
+1. **`kits/`** — 11 self-contained Claude Code kits. 10 are tactical (one
+   workflow each: niche, cold email, reply handler, pipeline tracker,
+   discovery, pricing, delivery, monthly maintenance, first automation,
+   content engine offer sheet). 1 is `sales-os`, the macro-kit that
+   orchestrates the tactical kits into a 12-week scaling plan for operators
+   with 1-3 clients moving to 5-10. Each kit interviews you, integrates into
+   your CLAUDE.md, then runs.
 2. **`skills/`** — 13 Claude Code skills I use daily (lead scraping, cold
    email setup, browser automation, content production, client onboarding).
    Drop into `~/.claude/skills/` and Claude picks them up automatically.
@@ -70,6 +73,7 @@ step you're stuck on.
 | `monthly-maintenance` | Retainer rhythm, monthly review template |
 | `claude-code-first-automation` | First production automation, from scratch |
 | `content-engine-offer-sheet` | Personal brand content engine for inbound |
+| `sales-os` | Macro-kit. 12-week scaling plan, scaling diagnostic, retainer scaling, first setter hire, capacity planning, cash flow model. For operators with 1-3 clients moving to 5-10. |
 
 ## Install
 

@@ -20,14 +20,23 @@ headline.
 ## When the user wants to install a kit
 
 1. Ask which kit. If they don't know, ask what they're trying to do this week
-   (find clients, run discovery, price a build, set up pipeline, deliver).
-   Match to a kit folder.
+   (find clients, run discovery, price a build, set up pipeline, deliver,
+   scale to more clients). Match to a kit folder.
 2. Tell them to `cd` into the kit folder.
 3. Tell them to invoke `claude` and say "run the kit".
 4. The kit's `CLAUDE.md` will run the Setup Interview (Step 0).
 
 Do NOT run the kit yourself from this root folder. Each kit is sandboxed and
 expects to be opened in its own folder.
+
+## Macro-kit vs tactical kit
+
+10 of the 11 kits are tactical: one workflow each, you ship one artifact.
+`sales-os` is the macro-kit: a 12-week scaling plan for operators with 1-3
+clients moving to 5-10. If the user says "I have a few clients, what now"
+or "how do I scale this" or "should I hire", route to `kits/sales-os/`. It
+diagnoses their state, runs only the chapters they need, and points back at
+tactical kits where relevant.
 
 ## Hard rules
 
