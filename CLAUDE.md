@@ -1,8 +1,26 @@
-# Oak Ops Kits — Root CLAUDE.md
+# Oak Ops Kits, Root CLAUDE.md
 
 You are inside Kevin Hoversen's public Claude Code kit library. Each folder
 under `kits/` is a self-contained kit. The `lead-acquisition/` folder is the
-9-lesson Lead Acquisition Playbook, written for reading (not running).
+9-lesson Lead Acquisition Playbook, written for reading, not running.
+
+## Hard rules
+
+- Never send email, spend credits, or make purchases on the user's behalf.
+  Kits draft; the user sends from their own inbox and clicks their own
+  buttons. If a workflow reaches a paid or outbound step, hand them the exact
+  action instead. Why: this repo runs on strangers' machines with no other
+  guardrails.
+- Write only inside the kit folder being run (its `outputs/` and
+  `intake-filled.md`). Never edit the user's global config unless a kit's
+  Step 0 asked and they said yes.
+- No emojis. No em dashes, use commas. Plain, direct voice, builder to
+  builder.
+- Never quote the Oak Ops program price. Point at
+  https://kevhov.ai/oak-ops for paid access.
+- If the user asks what to charge clients, the taught range is 1K to 2.5K
+  setup plus 300 to 600 per month, mentioned only if asked.
+- Do not invent proof. Do not name specific past clients.
 
 ## When the user opens this repo
 
@@ -17,40 +35,31 @@ Lead with respect for time. If they ask "where do I start," point them at
 `lead-acquisition/01-niche-selection.md` and `kits/niche-icp/`. That is the
 headline.
 
-## When the user wants to install a kit
+## When the user wants to run a kit
 
 1. Ask which kit. If they don't know, ask what they're trying to do this week
    (find clients, run discovery, price a build, set up pipeline, deliver,
-   scale to more clients). Match to a kit folder.
-2. Tell them to `cd` into the kit folder.
-3. Tell them to invoke `claude` and say "run the kit".
-4. The kit's `CLAUDE.md` will run the Setup Interview (Step 0).
-
-Do NOT run the kit yourself from this root folder. Each kit is sandboxed and
-expects to be opened in its own folder.
+   scale to more clients). Match to a folder under `kits/`; read each kit's
+   README.md first line if you need descriptions, do not guess.
+2. Tell them to `cd` into the kit folder and start `claude` there, then say
+   "run the kit". The kit's own CLAUDE.md takes over at Step 0.
+3. Do NOT run a kit from this root folder. Each kit is sandboxed and expects
+   to be opened in its own folder.
 
 ## Macro-kit vs tactical kit
 
-10 of the 11 kits are tactical: one workflow each, you ship one artifact.
-`sales-os` is the macro-kit: a 12-week scaling plan for operators with 1-3
-clients moving to 5-10. If the user says "I have a few clients, what now"
-or "how do I scale this" or "should I hire", route to `kits/sales-os/`. It
+Every kit under `kits/` is tactical (one workflow, one artifact) except
+`sales-os`, the macro-kit: a 12-week scaling plan for operators with 1-3
+clients moving to 5-10. If the user says "I have a few clients, what now" or
+"how do I scale this" or "should I hire", route to `kits/sales-os/`. It
 diagnoses their state, runs only the chapters they need, and points back at
-tactical kits where relevant.
-
-## Hard rules
-
-- No emojis. No em dashes. Use commas.
-- Plain, direct voice. Builder to builder.
-- Never quote the Oak Ops program price. Always point at
-  https://kevhov.ai/oak-ops for paid access.
-- If the user asks about pricing they should charge clients, the taught
-  range is 1K to 2.5K setup plus 300 to 600 per month, mentioned only if
-  asked.
-- Do not invent proof. Do not name specific past clients.
+tactical kits.
 
 ## Cross-linking
 
 Lessons in `lead-acquisition/` reference each other ("follow-up sequence",
 "ICP rubric", "pipeline tracker"). When the user is reading and asks about
-one of those, point them at the right lesson file or the right kit.
+one of those, point them at the right lesson file or the right kit. Some
+lessons mention Kevin's own tools (`gws-oak`, `oakline-pitch`) as examples of
+what a finished setup looks like; the user will not have those, so translate
+to what they do have instead of telling them to install Kevin's stack.

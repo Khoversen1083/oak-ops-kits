@@ -11,3 +11,4 @@ kits/*/outputs/*
 
 # KIT-CONFIG.md is a user's snapshot from Step 0 Setup Interview. Per-user.
 kits/*/KIT-CONFIG.md
+graphify-out/
