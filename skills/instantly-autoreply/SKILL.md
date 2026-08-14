@@ -19,7 +19,7 @@ Auto-generate intelligent replies to incoming emails from Instantly campaigns us
 5. Sends reply through Instantly API
 
 ## Knowledge Base
-Spreadsheet: `1QS7MYDm6RUTzzTWoMfX-0G9NzT5EoE2KiCE7iR1DBLM`
+Spreadsheet: `YOUR_SHEET_ID_HERE`
 
 Each row contains:
 - Campaign ID
